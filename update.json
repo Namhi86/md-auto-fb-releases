@@ -1,0 +1,18 @@
+{
+    "version":  "2.9.1",
+    "mandatory":  false,
+    "minimumSupportedVersion":  "2.9.0",
+    "fileName":  "MD.AUTO.v2.9.1.exe",
+    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v2.9.1/MD.AUTO.v2.9.1.exe",
+    "sha256":  "8c932be08964fae0025269b0afc11eebdbe0fd9f938bee7d7c82c7f789020fae",
+    "sha512":  "5OloYbRfq9UTJschwaMLjICYUXhMDvzFMhmvjhSk1bYrTDJx94rQDCZSXn+0qS20VdXttZGxmcyhYFqk45Jf9w==",
+    "size":  93368218,
+    "releaseDate":  "2026-11-03T06:10:38Z",
+    "channel":  "stable",
+    "changelog":  [
+                      "Bản quyền V2 dùng chữ ký số bất đối xứng Ed25519 (ứng dụng chỉ giữ khóa công khai, tương thích 100% key V1 cũ)",
+                      "Chặn bản ghi bản quyền cũ trên Cloud/DB ghi đè key V2 và nhận đúng key dán từ khung chat bị ngắt dòng",
+                      "Bổ sung tính năng Sao lưu \u0026 Phục hồi toàn bộ dữ liệu người dùng (Database, Bản quyền, Cấu hình)",
+                      "Ẩn Auto Instagram và Nuôi nick khỏi bản bán Fanpage; bảo toàn 100% dữ liệu Fanpage, Lịch đăng, Token và Proxy"
+                  ]
+}
