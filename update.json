@@ -1,18 +1,17 @@
 {
-    "version":  "2.9.1",
+    "version":  "2.9.6",
     "mandatory":  false,
-    "minimumSupportedVersion":  "2.9.0",
-    "fileName":  "MD.AUTO.v2.9.1.exe",
-    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v2.9.1/MD.AUTO.v2.9.1.exe",
-    "sha256":  "a2676cd29b9962cd533ad6002591d2d9d03be909d7e4435af9c05668c11abd5a",
-    "sha512":  "hoCIUYnVGgN1lWAwW9XFrCTIAABwdJbGhzafLvbsnYr6jptAcq/dvqM/SGbCq8lYfmgyz/HJRex4+GHPdMh4hw==",
-    "size":  93368786,
-    "releaseDate":  "2026-11-03T07:44:22Z",
+    "fileName":  "MD AUTO v2.9.6.exe",
+    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v2.9.6/MD-AUTO-v2.9.6.exe",
+    "sha256":  "1ecd823e7cee31fa684ad3e4d9c00f3fc9b2cd37495857ceabf56a878969cc43",
+    "sha512":  "2CuvbithbY7aB0GlhIX9HSFNTv+nC7iXbasjuHYfSOrWAsLpHElLAQ21wrRcJNxsucFsFjvDuLGTpIC6ikQDKQ==",
+    "size":  93629990,
+    "releaseDate":  "2026-11-11T07:33:18Z",
     "channel":  "stable",
     "changelog":  [
-                      "Bản quyền V2 dùng chữ ký số bất đối xứng Ed25519 (ứng dụng chỉ giữ khóa công khai, tương thích 100% key V1 cũ)",
-                      "Chặn bản ghi bản quyền cũ trên Cloud/DB ghi đè key V2 và nhận đúng key dán từ khung chat bị ngắt dòng",
-                      "Bổ sung tính năng Sao lưu \u0026 Phục hồi toàn bộ dữ liệu người dùng (Database, Bản quyền, Cấu hình)",
-                      "Ẩn Auto Instagram và Nuôi nick khỏi bản bán Fanpage; bảo toàn 100% dữ liệu Fanpage, Lịch đăng, Token và Proxy"
+                      "Nâng cấp Cơ chế Chia Link Tự động \u0026 Băm chống Spam đa ngôn ngữ (95 mẫu câu chuẩn: Tiếng Anh, Tiếng Philippines Tagalog/Taglish, Tiếng Việt, Chỉ Icon)",
+                      "Bổ sung bộ 35 câu dẫn riêng cho Philippines dạng Cảm ơn bạn, Chúa phù hộ bạn, Ủng hộ em (Maraming salamat po, God bless you po, Pa-support po...)",
+                      "Tích hợp thuật toán xáo bài Fisher-Yates (pickRandomCtaLeadPhrase) giúp lấy ngẫu nhiên từng câu dẫn và chống trùng lặp câu giữa các bài liên tiếp",
+                      "Thêm thanh nút chọn nhanh từng ngôn ngữ riêng biệt và xem trước câu dẫn trực tiếp trên Auto Fanpage \u0026 Auto Instagram"
                   ]
 }

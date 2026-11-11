@@ -1,0 +1,8 @@
+version: 2.9.6
+files:
+  - url: MD-AUTO-v2.9.6.exe
+    sha512: 2CuvbithbY7aB0GlhIX9HSFNTv+nC7iXbasjuHYfSOrWAsLpHElLAQ21wrRcJNxsucFsFjvDuLGTpIC6ikQDKQ==
+    size: 93629990
+path: MD-AUTO-v2.9.6.exe
+sha512: 2CuvbithbY7aB0GlhIX9HSFNTv+nC7iXbasjuHYfSOrWAsLpHElLAQ21wrRcJNxsucFsFjvDuLGTpIC6ikQDKQ==
+releaseDate: '2026-11-11T07:33:16.263Z'
