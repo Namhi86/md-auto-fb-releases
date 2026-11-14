@@ -1,0 +1,17 @@
+{
+  "version": "3.0.0",
+  "mandatory": true,
+  "fileName": "MD AUTO v3.0.0.exe",
+  "downloadUrl": "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.0.0/MD-AUTO-v3.0.0.exe",
+  "sha256": "65a4148026a6b77681ee1cf6e93508c311498337c8c934fd05932819232be887",
+  "sha512": "PoI3H7rXTNAmpsixeue3iTd2ljf+LZV8qXCCSt3FzOQ2DOMrCUQGrUCheS0zByZZ+MTDa1Oa9DjQk2XJ68sQZw==",
+  "size": 93281601,
+  "releaseDate": "2026-11-13T14:58:08Z",
+  "channel": "stable",
+  "changelog": [
+    "Tối ưu hóa toàn diện chống giật lag đơ giao diện: ghi SQLite bất đồng bộ không chặn Main Process, giữ cache thống kê thông minh và đọc video bất đồng bộ",
+    "Chèn Link Affiliate trễ 3-6 phút sau khi đăng (Delayed Caption Link Edit): tự động gắn câu dẫn CTA đa ngôn ngữ và giữ nguyên vẹn 100% Link Affiliate gốc lách quét spam #368",
+    "Khắc phục hiệu ứng Domino khi Failover System User Token (#190): loại trừ các Token đang dính giới hạn tần suất #368 và bảo vệ trạng thái các Fanpage đang tạm nghỉ",
+    "Dọn sạch hoàn toàn mã nguồn & tiến trình ngầm của các tính năng cũ không còn trên giao diện, giữ nguyên 100% các chức năng hiện hành"
+  ]
+}
