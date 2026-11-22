@@ -1,17 +1,19 @@
 {
-  "version": "3.0.0",
-  "mandatory": true,
-  "fileName": "MD AUTO v3.0.0.exe",
-  "downloadUrl": "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.0.0/MD-AUTO-v3.0.0.exe",
-  "sha256": "65a4148026a6b77681ee1cf6e93508c311498337c8c934fd05932819232be887",
-  "sha512": "PoI3H7rXTNAmpsixeue3iTd2ljf+LZV8qXCCSt3FzOQ2DOMrCUQGrUCheS0zByZZ+MTDa1Oa9DjQk2XJ68sQZw==",
-  "size": 93281601,
-  "releaseDate": "2026-11-13T14:58:08Z",
-  "channel": "stable",
-  "changelog": [
-    "Tối ưu hóa toàn diện chống giật lag đơ giao diện: ghi SQLite bất đồng bộ không chặn Main Process, giữ cache thống kê thông minh và đọc video bất đồng bộ",
-    "Chèn Link Affiliate trễ 3-6 phút sau khi đăng (Delayed Caption Link Edit): tự động gắn câu dẫn CTA đa ngôn ngữ và giữ nguyên vẹn 100% Link Affiliate gốc lách quét spam #368",
-    "Khắc phục hiệu ứng Domino khi Failover System User Token (#190): loại trừ các Token đang dính giới hạn tần suất #368 và bảo vệ trạng thái các Fanpage đang tạm nghỉ",
-    "Dọn sạch hoàn toàn mã nguồn & tiến trình ngầm của các tính năng cũ không còn trên giao diện, giữ nguyên 100% các chức năng hiện hành"
-  ]
+    "version":  "3.1.0",
+    "mandatory":  true,
+    "fileName":  "MD-AUTO-v3.1.0.exe",
+    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.1.0/MD-AUTO-v3.1.0.exe",
+    "sha256":  "01dcde7f93e4901a541dc2ca4fda8b41b24b944a6de555d976ac26f9370b9428",
+    "sha512":  "wY2oV4inHpBdcgn6FcLHMXgcYGlwXqDEy1KSdBN+6cRVDR+Joo5Zxc1UWeOGpmAZklnipkDVyycYkXIAdlbpLg==",
+    "size":  93287483,
+    "releaseDate":  "2026-11-22T07:41:55Z",
+    "channel":  "stable",
+    "changelog":  [
+                      "Giao diện trắng – tím mới dễ đọc hơn trên toàn bộ 16 màn hình, bỏ chế độ tối, cân chỉnh độ tương phản chữ/nhãn nhóm và đồng bộ màu biểu đồ",
+                      "Khóa trùng nội dung (video/ảnh gốc, đường link chuẩn hóa và mô tả chữ) cùng giới hạn số bài mỗi ngày theo Fanpage và theo Token cho cả Đăng ngay, Tool tự đăng và Hẹn giờ Facebook",
+                      "Lệch giờ đăng tự nhiên (không rơi đúng mốc phút tròn) kết hợp khởi động dần (Warm-up) tuần 1–2 cho Fanpage mới và Fanpage vừa phục hồi sau lỗi #368",
+                      "Tự giảm tốc 48 giờ theo từng nhóm BM khi gặp lỗi #368 hoặc tụt lượt tiếp cận mỗi bài, kèm kho Câu mở đầu / Câu kết / Emoji tự ghép không cần AI",
+                      "Bổ sung bảng Sức khỏe chống spam (đèn Xanh/Vàng/Đỏ) theo nhóm BM ngay trên Báo cáo tổng và tóm tắt Telegram 21:00 hằng ngày",
+                      "Hỗ trợ gán Proxy trực tiếp cho từng Token (ưu tiên Token → Nhóm Page → Page), tùy chọn Proxy nghiêm ngặt và tự ghim Fanpage tránh dùng chồng Token"
+                  ]
 }
