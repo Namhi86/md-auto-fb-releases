@@ -1,19 +1,19 @@
 {
-    "version":  "3.1.0",
+    "version":  "3.1.2",
     "mandatory":  true,
-    "fileName":  "MD-AUTO-v3.1.0.exe",
-    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.1.0/MD-AUTO-v3.1.0.exe",
-    "sha256":  "01dcde7f93e4901a541dc2ca4fda8b41b24b944a6de555d976ac26f9370b9428",
-    "sha512":  "wY2oV4inHpBdcgn6FcLHMXgcYGlwXqDEy1KSdBN+6cRVDR+Joo5Zxc1UWeOGpmAZklnipkDVyycYkXIAdlbpLg==",
-    "size":  93287483,
-    "releaseDate":  "2026-11-22T07:41:55Z",
+    "fileName":  "MD-AUTO-v3.1.2.exe",
+    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.1.2/MD-AUTO-v3.1.2.exe",
+    "sha256":  "c3f4ca350f0cf1cf92143b57ae56f5fd55ea6b46afda43eea1606196aa2b8a18",
+    "sha512":  "xDqqQs81cN+tGeBOjvGpyAH6/0N7eIaaMfisoPeIxIrzKinwf5CQGWC48dSKDkIjIHCc4cikXo1LT7bOuPmhuQ==",
+    "size":  93658855,
+    "releaseDate":  "2026-11-23T04:19:12Z",
     "channel":  "stable",
     "changelog":  [
-                      "Giao diện trắng – tím mới dễ đọc hơn trên toàn bộ 16 màn hình, bỏ chế độ tối, cân chỉnh độ tương phản chữ/nhãn nhóm và đồng bộ màu biểu đồ",
-                      "Khóa trùng nội dung (video/ảnh gốc, đường link chuẩn hóa và mô tả chữ) cùng giới hạn số bài mỗi ngày theo Fanpage và theo Token cho cả Đăng ngay, Tool tự đăng và Hẹn giờ Facebook",
-                      "Lệch giờ đăng tự nhiên (không rơi đúng mốc phút tròn) kết hợp khởi động dần (Warm-up) tuần 1–2 cho Fanpage mới và Fanpage vừa phục hồi sau lỗi #368",
-                      "Tự giảm tốc 48 giờ theo từng nhóm BM khi gặp lỗi #368 hoặc tụt lượt tiếp cận mỗi bài, kèm kho Câu mở đầu / Câu kết / Emoji tự ghép không cần AI",
-                      "Bổ sung bảng Sức khỏe chống spam (đèn Xanh/Vàng/Đỏ) theo nhóm BM ngay trên Báo cáo tổng và tóm tắt Telegram 21:00 hằng ngày",
-                      "Hỗ trợ gán Proxy trực tiếp cho từng Token (ưu tiên Token → Nhóm Page → Page), tùy chọn Proxy nghiêm ngặt và tự ghim Fanpage tránh dùng chồng Token"
+                      "Sửa lỗi Proxy không hoạt động trên bản 3.1.0 khiến Token bị báo die hoặc đăng bài thất bại khi gán Proxy",
+                      "Kiểm tra Proxy thật 3 bước: xác thực mật khẩu, đường kết nối thực tế tới Facebook, lấy đúng IP ra và tra quốc gia qua chính Proxy",
+                      "Chia Proxy hàng loạt cho Token theo Nhóm BM, chống thêm trùng Proxy, hiển thị nơi đang dùng và Kho Proxy tự đồng bộ khi thêm/xóa/sửa",
+                      "Báo rõ lý do khi Proxy lỗi (sai mật khẩu / từ chối kết nối có thể đã hết hạn), thêm nút kiểm tra Proxy riêng từng Token và tùy chọn tự thay Proxy chết (mặc định TẮT)",
+                      "Báo kết quả Đăng Excel rõ theo nhóm nguyên nhân lỗi, hỗ trợ tải file .xlsx các dòng lỗi và cảnh báo Fanpage đang bị dừng",
+                      "Fanpage đã đăng bài lên thật thành công tự động hết trạng thái Chưa thể xác minh đăng bài và xác minh chuẩn khi kiểm tra hết lỗi"
                   ]
 }
