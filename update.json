@@ -1,19 +1,19 @@
 {
-    "version":  "3.1.2",
-    "mandatory":  true,
-    "fileName":  "MD-AUTO-v3.1.2.exe",
-    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.1.2/MD-AUTO-v3.1.2.exe",
-    "sha256":  "c3f4ca350f0cf1cf92143b57ae56f5fd55ea6b46afda43eea1606196aa2b8a18",
-    "sha512":  "xDqqQs81cN+tGeBOjvGpyAH6/0N7eIaaMfisoPeIxIrzKinwf5CQGWC48dSKDkIjIHCc4cikXo1LT7bOuPmhuQ==",
-    "size":  93658855,
-    "releaseDate":  "2026-11-23T04:19:12Z",
+    "version":  "3.2.0",
+    "mandatory":  false,
+    "fileName":  "MD-AUTO-v3.2.0.exe",
+    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.2.0/MD-AUTO-v3.2.0.exe",
+    "sha256":  "b727c31930ecb0fcce85710d61f88e594d1c1d16b6f62b0bc54f8f97240e9ede",
+    "sha512":  "G3BRym50YCsn1DOUINMruLFPRqqU4gNpMF4f7PMU7NP3hwEdeArnjQdN7V2sD9XAuwYoVP9KucCISSOT0cfTyA==",
+    "size":  93673089,
+    "releaseDate":  "2026-11-23T15:02:37Z",
     "channel":  "stable",
     "changelog":  [
-                      "Sửa lỗi Proxy không hoạt động trên bản 3.1.0 khiến Token bị báo die hoặc đăng bài thất bại khi gán Proxy",
-                      "Kiểm tra Proxy thật 3 bước: xác thực mật khẩu, đường kết nối thực tế tới Facebook, lấy đúng IP ra và tra quốc gia qua chính Proxy",
-                      "Chia Proxy hàng loạt cho Token theo Nhóm BM, chống thêm trùng Proxy, hiển thị nơi đang dùng và Kho Proxy tự đồng bộ khi thêm/xóa/sửa",
-                      "Báo rõ lý do khi Proxy lỗi (sai mật khẩu / từ chối kết nối có thể đã hết hạn), thêm nút kiểm tra Proxy riêng từng Token và tùy chọn tự thay Proxy chết (mặc định TẮT)",
-                      "Báo kết quả Đăng Excel rõ theo nhóm nguyên nhân lỗi, hỗ trợ tải file .xlsx các dòng lỗi và cảnh báo Fanpage đang bị dừng",
-                      "Fanpage đã đăng bài lên thật thành công tự động hết trạng thái Chưa thể xác minh đăng bài và xác minh chuẩn khi kiểm tra hết lỗi"
+                      "Sửa lỗi đăng video nhận phản hồi rỗng bị báo lỗi mạng và tải lặp – nay tự đối soát để tránh đăng trùng và không khóa nhầm Fanpage",
+                      "Bổ sung chế độ Chạy song song theo Token/Proxy cho người dùng nhiều Token có proxy riêng (mặc định TẮT, Chế độ an toàn luôn tắt)",
+                      "Hiển thị số làn proxy, ước tính tốc độ đăng tối đa mỗi giờ và cảnh báo khi nhiều Token dùng chung ít IP trên giao diện Tool tự đăng",
+                      "Cảnh báo video nặng trên 200 MB (vàng) và trên 1 GB (đỏ) kèm tổng dung lượng video theo GB của lô Excel (chỉ cảnh báo, không chặn)",
+                      "Giảm mạnh RAM khi tải video nhờ đọc thẳng tệp từ ổ đĩa kết hợp giữ nguyên byte biến thể theo từng Fanpage",
+                      "Ghi nhật ký chi tiết cho từng lượt tải video (dung lượng, thời gian tải, mã HTTP, Proxy đã che mật khẩu) để hỗ trợ xử lý lỗi"
                   ]
 }
