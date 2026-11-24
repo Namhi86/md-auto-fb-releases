@@ -1,8 +1,8 @@
-version: 3.2.0
+version: 3.2.1
 files:
-  - url: MD-AUTO-v3.2.0.exe
-    sha512: G3BRym50YCsn1DOUINMruLFPRqqU4gNpMF4f7PMU7NP3hwEdeArnjQdN7V2sD9XAuwYoVP9KucCISSOT0cfTyA==
-    size: 93673089
-path: MD-AUTO-v3.2.0.exe
-sha512: G3BRym50YCsn1DOUINMruLFPRqqU4gNpMF4f7PMU7NP3hwEdeArnjQdN7V2sD9XAuwYoVP9KucCISSOT0cfTyA==
-releaseDate: '2026-11-23T15:02:37Z'
+  - url: MD-AUTO-v3.2.1.exe
+    sha512: 9L9VROqhEC5dJTBVrNcKZ7X+A9J3K65ezaztTjCketYwrX5/kPKczjAdGWTsRYwl/VwqrtqyJud1YGxB3S3UIA==
+    size: 93657812
+path: MD-AUTO-v3.2.1.exe
+sha512: 9L9VROqhEC5dJTBVrNcKZ7X+A9J3K65ezaztTjCketYwrX5/kPKczjAdGWTsRYwl/VwqrtqyJud1YGxB3S3UIA==
+releaseDate: '2026-11-24T13:45:34Z'

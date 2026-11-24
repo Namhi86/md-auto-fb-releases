@@ -1,19 +1,19 @@
 {
-    "version":  "3.2.0",
+    "version":  "3.2.1",
     "mandatory":  false,
-    "fileName":  "MD-AUTO-v3.2.0.exe",
-    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.2.0/MD-AUTO-v3.2.0.exe",
-    "sha256":  "b727c31930ecb0fcce85710d61f88e594d1c1d16b6f62b0bc54f8f97240e9ede",
-    "sha512":  "G3BRym50YCsn1DOUINMruLFPRqqU4gNpMF4f7PMU7NP3hwEdeArnjQdN7V2sD9XAuwYoVP9KucCISSOT0cfTyA==",
-    "size":  93673089,
-    "releaseDate":  "2026-11-23T15:02:37Z",
+    "fileName":  "MD-AUTO-v3.2.1.exe",
+    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.2.1/MD-AUTO-v3.2.1.exe",
+    "sha256":  "aab378179a3da3c479a79a8d91267156989358e8eb0a1abad35c4901f7bd2e02",
+    "sha512":  "9L9VROqhEC5dJTBVrNcKZ7X+A9J3K65ezaztTjCketYwrX5/kPKczjAdGWTsRYwl/VwqrtqyJud1YGxB3S3UIA==",
+    "size":  93657812,
+    "releaseDate":  "2026-11-24T13:45:34Z",
     "channel":  "stable",
     "changelog":  [
-                      "Sửa lỗi đăng video nhận phản hồi rỗng bị báo lỗi mạng và tải lặp – nay tự đối soát để tránh đăng trùng và không khóa nhầm Fanpage",
-                      "Bổ sung chế độ Chạy song song theo Token/Proxy cho người dùng nhiều Token có proxy riêng (mặc định TẮT, Chế độ an toàn luôn tắt)",
-                      "Hiển thị số làn proxy, ước tính tốc độ đăng tối đa mỗi giờ và cảnh báo khi nhiều Token dùng chung ít IP trên giao diện Tool tự đăng",
-                      "Cảnh báo video nặng trên 200 MB (vàng) và trên 1 GB (đỏ) kèm tổng dung lượng video theo GB của lô Excel (chỉ cảnh báo, không chặn)",
-                      "Giảm mạnh RAM khi tải video nhờ đọc thẳng tệp từ ổ đĩa kết hợp giữ nguyên byte biến thể theo từng Fanpage",
-                      "Ghi nhật ký chi tiết cho từng lượt tải video (dung lượng, thời gian tải, mã HTTP, Proxy đã che mật khẩu) để hỗ trợ xử lý lỗi"
+                      "Đăng được video lớn tới 10 GB nhờ tải chia nhỏ, không còn lỗi 413 hay bị cắt sau 2 phút",
+                      "Mỗi bài thử tối đa 3 lần rồi mới báo lỗi rõ nguyên nhân, lỗi mạng/proxy/máy chủ Facebook không còn khóa Page",
+                      "Sửa lỗi Page đã phục hồi vẫn bị chặn vì mã xác minh danh tính cũ (4854002)",
+                      "Kho Proxy là nơi quyết định duy nhất: xóa/sửa proxy trong Kho tự cập nhật xuống Token, Nhóm, Page; dán proxy ở đâu cũng tự vào Kho",
+                      "Cảnh báo trước khi đăng nếu Page sẽ dùng IP thật hoặc dùng token không có trong danh sách",
+                      "Bảo mật: không ghi token Facebook và mật khẩu proxy vào file log hay câu báo lỗi"
                   ]
 }
