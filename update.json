@@ -1,19 +1,17 @@
 {
-    "version":  "3.2.1",
-    "mandatory":  false,
-    "fileName":  "MD-AUTO-v3.2.1.exe",
-    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.2.1/MD-AUTO-v3.2.1.exe",
-    "sha256":  "aab378179a3da3c479a79a8d91267156989358e8eb0a1abad35c4901f7bd2e02",
-    "sha512":  "9L9VROqhEC5dJTBVrNcKZ7X+A9J3K65ezaztTjCketYwrX5/kPKczjAdGWTsRYwl/VwqrtqyJud1YGxB3S3UIA==",
-    "size":  93657812,
-    "releaseDate":  "2026-11-24T13:45:34Z",
-    "channel":  "stable",
-    "changelog":  [
-                      "Đăng được video lớn tới 10 GB nhờ tải chia nhỏ, không còn lỗi 413 hay bị cắt sau 2 phút",
-                      "Mỗi bài thử tối đa 3 lần rồi mới báo lỗi rõ nguyên nhân, lỗi mạng/proxy/máy chủ Facebook không còn khóa Page",
-                      "Sửa lỗi Page đã phục hồi vẫn bị chặn vì mã xác minh danh tính cũ (4854002)",
-                      "Kho Proxy là nơi quyết định duy nhất: xóa/sửa proxy trong Kho tự cập nhật xuống Token, Nhóm, Page; dán proxy ở đâu cũng tự vào Kho",
-                      "Cảnh báo trước khi đăng nếu Page sẽ dùng IP thật hoặc dùng token không có trong danh sách",
-                      "Bảo mật: không ghi token Facebook và mật khẩu proxy vào file log hay câu báo lỗi"
-                  ]
+  "version": "3.2.2",
+  "mandatory": false,
+  "fileName": "MD-AUTO-v3.2.2.exe",
+  "downloadUrl": "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.2.2/MD-AUTO-v3.2.2.exe",
+  "sha256": "76ef0eb4f082a337d31e9c78385dd23fa4de57418899e504b8b43ab204eee162",
+  "sha512": "dLr8lvFCS5OYKc2KwgrHKy77B3CpU2ysxaO3Gtn5gES8gPdoVTiQ/b5vd1pkuEg4nur5VoGlAoKeXlLsr+idBQ==",
+  "size": 93684893,
+  "releaseDate": "2026-11-25T17:33:13Z",
+  "channel": "stable",
+  "changelog": [
+    "Mặc định đăng xen kẽ lần lượt từng Token (Token 1 -> 2 -> ... -> N) và nhớ mốc nối vòng cho Tool tự đăng, Đăng hàng loạt và Đăng Excel",
+    "Thêm nút \"Chia đều Page cho Token\" trên màn Quản lý Token: kiểm quyền thật từ Facebook qua Proxy, bảng xem trước Trước -> Sau, bảo toàn 100% lịch sử/nhóm/Proxy",
+    "Hiển thị huy hiệu \"đang gánh X page\" trên từng dòng Token kèm cảnh báo vàng khi phát hiện dồn tải vào 1 Token",
+    "Tích hợp mục \"Hướng dẫn sử dụng\" tương tác chi tiết chạy offline ngay trên Sidebar (sơ đồ 6 bước, bảng quy chuẩn 3 quy mô Dưới 1.000 / 1.000-5.000 / 5.000-10.000 Page, 16 thẻ gạt thử Khi BẬT / Khi TẮT)"
+  ]
 }
