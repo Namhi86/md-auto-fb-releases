@@ -1,17 +1,17 @@
 {
-  "version": "3.2.2",
+  "version": "3.2.3",
   "mandatory": false,
-  "fileName": "MD-AUTO-v3.2.2.exe",
-  "downloadUrl": "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.2.2/MD-AUTO-v3.2.2.exe",
-  "sha256": "76ef0eb4f082a337d31e9c78385dd23fa4de57418899e504b8b43ab204eee162",
-  "sha512": "dLr8lvFCS5OYKc2KwgrHKy77B3CpU2ysxaO3Gtn5gES8gPdoVTiQ/b5vd1pkuEg4nur5VoGlAoKeXlLsr+idBQ==",
-  "size": 93684893,
-  "releaseDate": "2026-11-25T17:33:13Z",
+  "fileName": "MD-AUTO-v3.2.3.exe",
+  "downloadUrl": "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.2.3/MD-AUTO-v3.2.3.exe",
+  "sha256": "65efa928af2cd39c5df24bd09e4f46bb987f05b9b5b2be3a0a213b01856f454d",
+  "sha512": "9HINOzMHmiCXWi/Xj3t9WoJ0kuitkaeNIxbGmluRs7iybCaZRRoZqbBjaiQ1YonCM7NX1EDhpQFoAhXz1DH8YA==",
+  "size": 93686369,
+  "releaseDate": "2026-11-26T08:11:10Z",
   "channel": "stable",
   "changelog": [
-    "Mặc định đăng xen kẽ lần lượt từng Token (Token 1 -> 2 -> ... -> N) và nhớ mốc nối vòng cho Tool tự đăng, Đăng hàng loạt và Đăng Excel",
-    "Thêm nút \"Chia đều Page cho Token\" trên màn Quản lý Token: kiểm quyền thật từ Facebook qua Proxy, bảng xem trước Trước -> Sau, bảo toàn 100% lịch sử/nhóm/Proxy",
-    "Hiển thị huy hiệu \"đang gánh X page\" trên từng dòng Token kèm cảnh báo vàng khi phát hiện dồn tải vào 1 Token",
-    "Tích hợp mục \"Hướng dẫn sử dụng\" tương tác chi tiết chạy offline ngay trên Sidebar (sơ đồ 6 bước, bảng quy chuẩn 3 quy mô Dưới 1.000 / 1.000-5.000 / 5.000-10.000 Page, 16 thẻ gạt thử Khi BẬT / Khi TẮT)"
+    "Sửa lỗi bấm \"Xem trước & Chia đều ngay\" / \"Chia đều Page cho Token\" không hiển thị hộp thoại xác nhận trên màn Quản lý Token",
+    "Tối ưu chia đều Page cho dàn 100+ Token: tăng tốc quét quyền Facebook lên 8 luồng song song qua Proxy riêng và hiển thị rõ số Token đang quét",
+    "Lưu tạm kết quả vừa Xem trước trong 10 phút: bấm \"Xác nhận chia đều\" lưu ngay trong dưới 1 giây, không phải quét lại Facebook lần thứ 2",
+    "Bao gồm trọn bộ tính năng v3.2.2: mặc định đăng xen kẽ vòng tròn từng Token, tối đa 50 luồng song song theo Token/Proxy và mục Hướng dẫn sử dụng chi tiết tích hợp offline"
   ]
 }
