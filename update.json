@@ -1,17 +1,17 @@
 {
-  "version": "3.2.3",
-  "mandatory": false,
-  "fileName": "MD-AUTO-v3.2.3.exe",
-  "downloadUrl": "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.2.3/MD-AUTO-v3.2.3.exe",
-  "sha256": "65efa928af2cd39c5df24bd09e4f46bb987f05b9b5b2be3a0a213b01856f454d",
-  "sha512": "9HINOzMHmiCXWi/Xj3t9WoJ0kuitkaeNIxbGmluRs7iybCaZRRoZqbBjaiQ1YonCM7NX1EDhpQFoAhXz1DH8YA==",
-  "size": 93686369,
-  "releaseDate": "2026-11-26T08:11:10Z",
-  "channel": "stable",
-  "changelog": [
-    "Sửa lỗi bấm \"Xem trước & Chia đều ngay\" / \"Chia đều Page cho Token\" không hiển thị hộp thoại xác nhận trên màn Quản lý Token",
-    "Tối ưu chia đều Page cho dàn 100+ Token: tăng tốc quét quyền Facebook lên 8 luồng song song qua Proxy riêng và hiển thị rõ số Token đang quét",
-    "Lưu tạm kết quả vừa Xem trước trong 10 phút: bấm \"Xác nhận chia đều\" lưu ngay trong dưới 1 giây, không phải quét lại Facebook lần thứ 2",
-    "Bao gồm trọn bộ tính năng v3.2.2: mặc định đăng xen kẽ vòng tròn từng Token, tối đa 50 luồng song song theo Token/Proxy và mục Hướng dẫn sử dụng chi tiết tích hợp offline"
-  ]
+    "version":  "3.2.4",
+    "mandatory":  false,
+    "fileName":  "MD AUTO v3.2.4.exe",
+    "downloadUrl":  "https://github.com/Namhi86/md-auto-fb-releases/releases/download/v3.2.4/MD-AUTO-v3.2.4.exe",
+    "sha256":  "4e1fa3de7c7382da63afd43551826699aed993365381c393a7afa5b6da40a053",
+    "sha512":  "/gpTPq1+LX6dmJXcAN0TVtqa/0p0ipuZ2xgfP1Zc80X6QTCRND3XcffQ7pgNjP1a15MjtKBRR+MVpktJMcZ3dg==",
+    "size":  93688903,
+    "releaseDate":  "2026-11-28T15:25:27Z",
+    "channel":  "stable",
+    "changelog":  [
+                      "Sửa lỗi giãn cách bị phình lên 8-10 tiếng/bài do cộng gộp khung nghỉ đêm 23h-05h khiến bài tràn sang ngày hôm sau",
+                      "Đảm bảo toàn bộ hàm khóa giãn cách sau khi đăng và trải đều bài quá hạn luôn tôn trọng tuyệt đối cài đặt Nghỉ đêm (giờ VN UTC+7)",
+                      "Tự động phát hiện và gom gọn an toàn các bài đang chờ bị phình giãn cách hoặc rơi vào khung đêm khi khởi động bản mới",
+                      "Bảo toàn 100% dữ liệu Fanpage, Lịch sử đăng, bài hoãn chống spam (SLOWMODE/DAILY_CAP), Token, Proxy và Bản quyền"
+                  ]
 }
